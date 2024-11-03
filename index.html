@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMPubl - Discover & Buy Beats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-logo">SMPubl</div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#beats">Beats</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <h1>Welcome to SMPubl</h1>
+            <p>Discover & Buy Beats for Your Projects</p>
+            <a href="#beats" class="cta-button">Browse Beats</a>
+        </div>
+    </header>
+
+    <!-- Featured Beats Section -->
+    <section id="beats" class="beats-section">
+        <h2>Featured Beats</h2>
+        <div class="grid">
+            <div class="beat-card">
+                <img src="sample-beat.jpg" alt="Beat 1">
+                <h3>Beat Name 1</h3>
+                <p>$29.99</p>
+                <button class="play-button">Play</button>
+            </div>
+            <div class="beat-card">
+                <img src="sample-beat.jpg" alt="Beat 2">
+                <h3>Beat Name 2</h3>
+                <p>$29.99</p>
+                <button class="play-button">Play</button>
+            </div>
+            <!-- Add more .beat-card divs for more beats -->
+        </div>
+    </section>
+
+    <!-- Music Player -->
+    <section class="music-player">
+        <h2>Now Playing</h2>
+        <audio controls>
+            <source src="sample-beat.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About SMPubl</h2>
+        <p>SMPubl offers exclusive beats, licenses, and music management services tailored for artists, content creators, and producers. Discover high-quality sounds and licensing solutions all in one place.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="footer-content">
+            <p>&copy; 2024 SMPubl. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
